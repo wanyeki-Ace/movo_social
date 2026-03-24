@@ -1,0 +1,26 @@
+{
+  "name": "movo",
+  "version": "1.0.0",
+  "description": "A Twitter-like social media platform built with Django, demonstrating core **Data Structures and Algorithms** concepts.",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./static/css/tailwind_input.css -o ./static/css/tailwind.css --minify",
+    "watch:css": "tailwindcss -i ./static/css/tailwind_input.css -o ./static/css/tailwind.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpeli/movo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/arpeli/movo/issues"
+  },
+  "homepage": "https://github.com/arpeli/movo#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
